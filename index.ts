@@ -22,7 +22,7 @@ app.post('/upload', (req: Request, res: Response) => {
 
     const file = req.files?.file as UploadedFile;
 
-    const filePath = './sst.grid';
+    const filePath = './grid/sst.grid';
 
 
     const tempFilePath = __dirname + '/temp' + file.name;
